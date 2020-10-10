@@ -50,7 +50,6 @@ h1, h2, h3, h4, h5, h6 {
   color: #fff;
   transition: all 0.4s;
 }
-
 /*--------------------------------------------------------------
 # Header
 --------------------------------------------------------------*/
@@ -552,6 +551,7 @@ section {
 --------------------------------------------------------------*/
 .services {
   padding-bottom: 30px;
+  padding-top: 132%;
 }
 
 .services .icon-box {
@@ -1899,6 +1899,18 @@ section {
   margin-top: 13%;
   text-align: justify;
   font-size: 80%;
+  font-family: serif;
+}
+.card-title{
+  color: black;
+  font-family: serif;
+  font-weight: 600;
+}
+.card-title:hover{
+  color: grey;
+}
+.card-deck{
+  padding: 2%;
 }
 .image-enlarge{
   padding-left: 68%;
@@ -2061,4 +2073,18 @@ section {
   background: #E2CC31;
   color: black;
   text-decoration: none;
+}
+.bx-customized-style {
+  border: 2px solid #E2CC31;
+  font-weight: bolder;
+  padding-left: 3%;
+  padding-right: 3%;
+  padding-top: 2%;
+  padding-bottom: 2%;
+  border-radius: 50px;
+}
+
+.bx-customized-style:hover{
+  color: black;
+  background-color: #E2CC31;
 }
