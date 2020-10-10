@@ -1901,12 +1901,12 @@ section {
   font-size: 80%;
   font-family: serif;
 }
-.card-title{
+.card-title-1 a h5 {
   color: black;
   font-family: serif;
   font-weight: 600;
 }
-.card-title:hover{
+.card-title-1 a h5:hover{
   color: grey;
 }
 .card-deck{
@@ -2087,4 +2087,38 @@ section {
 .bx-customized-style:hover{
   color: black;
   background-color: #E2CC31;
+}
+.bx-plus{
+  font-size: x-large;
+  font-weight: 700;
+}
+#card-plus a:hover {
+  color: #91840d;
+}
+
+ul {
+    margin-top: 20%;
+}
+
+@media (max-width: 992px) {
+  .card-title{
+    font-size: 80%;
+  }
+}
+
+@media (max-width: 769px) {
+  .card-title{
+    font-size: 55%;
+  }
+  .bx-plus{
+    font-size: x-small;
+    font-weight: 700;
+  }
+  ul {
+    margin-top: 30%;
+    font-size: 60%;
+  }
+  #footer-left h4{
+    font-size: 90%;
+  }
 }
