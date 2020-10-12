@@ -1,0 +1,93 @@
+
+@media (max-width: 1200px) {
+  .about .content ul {
+      margin-top: 20%;
+  }
+}
+@media (max-width: 992px) {
+  .card-title{
+    font-size: 80%;
+  }
+  .about .content ul {
+    margin-top: 32%;
+  }
+  .services{
+   padding-top: 1853%;
+  }
+  #services div .section-title{
+    margin-top:-1041rem;
+  } 
+    #reviews div .section-title{
+    margin-top:-990rem;
+  } 
+      #contact div .section-title{
+    margin-top:-952rem;
+  } 
+
+element.style {
+}
+#footer .footer-top{
+  margin-top:   -883rem;
+}
+}
+
+@media (max-width: 769px) {
+  .card-title{
+    font-size: 55%;
+  }
+  .bx-plus{
+    font-size: x-small;
+    font-weight: 700;
+  }
+  ul {
+    margin-top: 30%;
+    font-size: 60%;
+  }
+  #footer-left h4{
+    font-size: 90%;
+  }
+}
+
+@media (max-width: 754px) {
+  .about .content ul {
+    margin-top: 43%;
+  }
+}
+
+
+@media (max-width: 510px) {
+  .about .content ul {
+    margin-top: 47%;
+  }
+}
+@media (max-width: 414px) {
+  .about .content ul {
+    margin-top: 57%;
+  }
+}
+@media (max-width: 411px) {
+  .about .content ul {
+    margin-top: 60%;
+  }
+}
+@media (max-width: 375px) {
+  .about .content ul {
+    margin-top: 65%;
+  }
+}
+@media (max-width: 360px) {
+  .about .content ul {
+    margin-top: 67%;
+  }
+}
+@media (max-width: 320px) {
+  .about .content ul {
+    margin-top: 76%;
+  }
+}
+
+@media (max-width: 280px) {
+  .about .content ul {
+    margin-top: 87%;
+  }
+}

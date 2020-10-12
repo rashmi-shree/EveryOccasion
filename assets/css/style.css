@@ -454,13 +454,14 @@ section {
 }
 
 .section-title h2 {
-  font-size: 13px;
+  text-decoration-line: underline;
+  font-size: 176%;
   letter-spacing: 1px;
   font-weight: 700;
   padding: 8px 20px;
   line-height: 1;
   margin: 0;
-  background: #797721;
+  /*background: #797721;*/
   color: #E2CC31;
   display: inline-block;
   text-transform: uppercase;
@@ -484,7 +485,7 @@ section {
 
 @media (min-width: 1024px) {
   .section-title p {
-    width: 50%;
+    width: 102%;
   }
 }
 
@@ -551,7 +552,7 @@ section {
 --------------------------------------------------------------*/
 .services {
   padding-bottom: 30px;
-  padding-top: 132%;
+  padding-top: 145%;
 }
 
 .services .icon-box {
@@ -972,6 +973,9 @@ section {
 
 .faq .faq-list a.collapsed i::before {
   content: "\eab2" !important;
+}
+#reviews div ul {
+  margin-top: 0%;
 }
 
 @media (min-width: 1280px) {
@@ -1901,10 +1905,21 @@ section {
   font-size: 80%;
   font-family: serif;
 }
+.card-title-1{
+  /*border: 2px solid black;*/
+  display: inline-flex;
+}
+.details-link{
+  /*border: 2px solid black;*/
+  /*float: right;*/
+  margin-left: 18%;
+  margin-top: 6%;
+}
 .card-title-1 a h5 {
   color: black;
   font-family: serif;
   font-weight: 600;
+  font-size: x-small;
 }
 .card-title-1 a h5:hover{
   color: grey;
@@ -1914,6 +1929,9 @@ section {
 }
 .image-enlarge{
   padding-left: 68%;
+}
+#giftboxes div .section-title {
+  margin-top: -8%;
 }
 /*--------------------------------------------------------------
 # Footer
@@ -2100,25 +2118,144 @@ ul {
     margin-top: 20%;
 }
 
-@media (max-width: 992px) {
-  .card-title{
-    font-size: 80%;
+.about-row-content p {
+  margin-bottom: -13rem;
+}
+.classWithPad{
+       margin:10%; 
+}
+@media (max-width: 1500px) {
+  .services .container{
+    margin-top:-25%;
+  }
+  .contact .container{
+    margin-top: -5%;
+  }
+    #reviews .container{
+    margin-top:-1%;
   }
 }
 
-@media (max-width: 769px) {
-  .card-title{
-    font-size: 55%;
+@media (max-width: 1200px) {
+  .services .container{
+    margin-top:-10%;
   }
-  .bx-plus{
-    font-size: x-small;
-    font-weight: 700;
+  .contact .container{
+    margin-top: -5%;
   }
-  ul {
-    margin-top: 30%;
-    font-size: 60%;
+      #reviews .container{
+    margin-top:-1%;
   }
-  #footer-left h4{
-    font-size: 90%;
+}
+@media (max-width: 1024px){
+    .services .container{
+   /*border: 2px solid black;*/
+    margin-top:-10%;
   }
+   .about-row-content ul{
+   /*border: 2px solid black;*/
+    margin-top: 25%;
+  }
+        #reviews .container{
+    margin-top:-2%;
+  }
+}
+
+@media (max-width: 992px) {
+  .services .container{
+    margin-top:-10%;
+  }
+  .about-row-content ul{
+    margin-top:24%;
+  }
+}
+
+@media (max-width: 768px){
+    .services .container{
+    margin-top:130%;
+  }
+  .about-row-content ul{
+    margin-top:31%;
+  }
+}
+
+@media (max-width: 576px){
+    .services .container{
+    margin-top:390%;
+  }
+  .about-row-content ul{
+    margin-top:47%;
+  }
+}
+@media (max-width: 540px){
+    .services .container{
+      /*border: 2px solid black;*/
+    margin-top:430%;
+  }
+  .about-row-content ul{
+    margin-top:45%;
+  }
+}
+
+@media (max-width: 414px) and (min-height:320px){
+    .services .container{
+    /*border: 2px solid black;*/
+    margin-top: 450%;
+  }
+    .about .content ul {
+  margin-top: 62%;
+}
+}
+@media(max-width: 375px){
+     .services .container{
+   /*border: 2px solid black;*/
+    margin-top:470%;
+  }
+  .about .content ul {
+  margin-top: 62%;
+}
+}
+@media(max-width: 360px){
+     .services .container{
+   /*border: 2px solid black;*/
+    margin-top:445%;
+  }
+  .details-link {
+    font-size: xx-small;
+}
+.card-title-1 a h5 {
+
+    font-size: 35%;
+
+}
+  .about .content ul {
+  margin-top: 72%;
+}
+}
+
+@media(max-width: 320px){
+  .services .container{
+    margin-top: 460%;
+  }
+    .about-row-content ul{
+   /*border: 2px solid black;*/
+    margin-top:73%;
+  }
+    .about .content ul {
+  margin-top: 82%;
+}
+}
+
+@media(max-width: 280px){
+  .services .container{
+    /*border: 2px solid black;*/
+    margin-top: 480%;
+  }
+    .about-row-content ul{
+   /*border: 2px solid black;*/
+    margin-top:85%;
+  }
+      .about .content ul {
+  margin-top: 92%;
+}
 }
