@@ -542,7 +542,7 @@
               <div class="phone">
                 <i class="icofont-phone"></i>
                 <h4>Call:</h4>
-                <p>+91 9148736043/+91 9916248212</p>
+                <p>+91 9148736043/ +91 9916248212</p>
               </div>
 
             </div>
@@ -563,6 +563,9 @@
                 </div>
               </div>
               <div class="form-group">
+                <input type="text" class="form-control" name="phone" placeholder="Phone Number" pattern="[0-9]{10}" required/>
+              </div>
+              <div class="form-group">
                 <input type="text" class="form-control" name="subject" id="subject" placeholder="Subject" data-rule="minlen:4" data-msg="Please enter at least 8 chars of subject" />
                 <div class="validate"></div>
               </div>
@@ -572,10 +575,10 @@
               </div>
               <div class="mb-3">
                 <div class="loading">Loading</div>
-                <div class="error-message"></div>
-                <div class="sent-message">Your message has been sent. Thank you!</div>
+                <!--<div class="error-message"></div>-->
+                <div style="display:none;" id="msg">Your message has been sent. Thank you!</div>
               </div>
-              <div class="text-center"><button class="send_message_button" type="submit">Send Message</button></div>
+              <div class="text-center"><button class="send_message_button" type="submit" onclick="showmsg()">Send Message</button></div>
             </form>
 
           </div>
@@ -673,6 +676,7 @@
 
   <!-- Template Main JS File -->
   <script src="assets/js/main.js"></script>
+   <script src="assets/js/main1.js"></script>
 
 </body>
 
