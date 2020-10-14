@@ -333,21 +333,24 @@ h1, h2, h3, h4, h5, h6 {
 # Hero Section
 --------------------------------------------------------------*/
 #hero {
-  width: 100%;
   height: 100vh;
-  background: url("../img/homepage_background.jpg") top center;
-  background-size: cover;
   position: relative;
 }
 
 #hero:before {
+  width: 100%;
   content: "";
-  background: rgba(0, 0, 0, 0.6);
+  background: rgba(0, 0, 0, 0.1);
+  background: url("../img/home_page_images/homepage_background.jpg") top center;
+  background-size: 100%;
+  opacity: 0.5;
   position: absolute;
   bottom: 0;
   top: 0;
   left: 0;
   right: 0;
+  background-repeat: no-repeat;
+  background-position: center center;
 }
 
 #hero .hero-container {
@@ -1912,8 +1915,8 @@ section {
 .details-link{
   /*border: 2px solid black;*/
   /*float: right;*/
-  margin-left: 18%;
-  margin-top: 6%;
+  /*margin-left: 18%;*/
+  /*margin-top: 6%;*/
 }
 .card-title-1 a h5 {
   color: black;
@@ -2126,7 +2129,8 @@ ul {
 }
 @media (max-width: 1500px) {
   .services .container{
-    margin-top:-25%;
+    /*border: 2px solid black;*/
+    margin-top:-50%;
   }
   .contact .container{
     margin-top: -5%;
@@ -2138,7 +2142,8 @@ ul {
 
 @media (max-width: 1200px) {
   .services .container{
-    margin-top:-10%;
+    /*border: 2px solid black;*/
+    margin-top:-38%;
   }
   .contact .container{
     margin-top: -5%;
@@ -2150,7 +2155,7 @@ ul {
 @media (max-width: 1024px){
     .services .container{
    /*border: 2px solid black;*/
-    margin-top:-10%;
+    margin-top:-36%;
   }
    .about-row-content ul{
    /*border: 2px solid black;*/
@@ -2163,7 +2168,8 @@ ul {
 
 @media (max-width: 992px) {
   .services .container{
-    margin-top:-10%;
+   /*border: 2px solid black;*/
+    margin-top:-34%;
   }
   .about-row-content ul{
     margin-top:24%;
@@ -2172,16 +2178,19 @@ ul {
 
 @media (max-width: 768px){
     .services .container{
-    margin-top:130%;
+   /*border: 2px solid black;*/
+    margin-top:72%;
   }
   .about-row-content ul{
-    margin-top:31%;
+   /*border: 2px solid black;*/
+    margin-top:33%;
   }
 }
 
 @media (max-width: 576px){
     .services .container{
-    margin-top:390%;
+      /*border: 2px solid black;*/
+    margin-top:285%;
   }
   .about-row-content ul{
     margin-top:47%;
@@ -2190,7 +2199,7 @@ ul {
 @media (max-width: 540px){
     .services .container{
       /*border: 2px solid black;*/
-    margin-top:430%;
+    margin-top:310%;
   }
   .about-row-content ul{
     margin-top:45%;
@@ -2198,18 +2207,19 @@ ul {
 }
 
 @media (max-width: 414px) and (min-height:320px){
-    .services .container{
-    /*border: 2px solid black;*/
-    margin-top: 450%;
+    #services .container{
+    border: 2px solid black;
+    margin-top: 166%;
   }
     .about .content ul {
+          border: 2px solid black;
   margin-top: 62%;
 }
 }
 @media(max-width: 375px){
      .services .container{
    /*border: 2px solid black;*/
-    margin-top:470%;
+    margin-top:350%;
   }
   .about .content ul {
   margin-top: 62%;
@@ -2218,16 +2228,12 @@ ul {
 @media(max-width: 360px){
      .services .container{
    /*border: 2px solid black;*/
-    margin-top:445%;
+    margin-top:350%;
   }
   .details-link {
     font-size: xx-small;
 }
-.card-title-1 a h5 {
 
-    font-size: 35%;
-
-}
   .about .content ul {
   margin-top: 72%;
 }
@@ -2235,7 +2241,7 @@ ul {
 
 @media(max-width: 320px){
   .services .container{
-    margin-top: 460%;
+    margin-top: 370%;
   }
     .about-row-content ul{
    /*border: 2px solid black;*/
@@ -2249,13 +2255,34 @@ ul {
 @media(max-width: 280px){
   .services .container{
     /*border: 2px solid black;*/
-    margin-top: 480%;
+    margin-top: 290rem;
   }
     .about-row-content ul{
    /*border: 2px solid black;*/
     margin-top:85%;
   }
-      .about .content ul {
+  .about .content ul {
   margin-top: 92%;
+}
+#hero .hero-container {
+    position: sticky;
+    }
+.card-title-1 .one{
+  border: 2px solid black;
+      margin-left: -26%;
+    margin-right: 25%;
+    font-size: 58%;
+
+ }
+ .card-title-1 .two{
+  border: 2px solid black;
+ }
+.card-title-1 .one a{
+  /*border: 2px solid black;*/
+  color: black;
+  font-weight: bold;
+}
+.card-title-1 .one a:hover{
+  color: #999494;
 }
 }
